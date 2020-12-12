@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/fontawesome/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="js/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="js/jquery-ui-1.12.1/jquery-ui.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+
+
+</head>
+
+<body>
+    <div id="main-container">
+        <div class="container">
+            <div class="row justify-content-center ">
+
+                <div class="col-sm-2" id="back-ground-img">
+                    <img src="assets/logo.png" width="150px" height="160px" class="img-responsive" id="logo">
+                </div>
+                <div class=" col-sm-5" id="form-div">
+                    <form id="basic-form" action="step1.html">
+                        <div class="form-group ">
+                            <input name="username" type="text" class="form-control" id="userName" aria-describedby="nameHelp" placeholder="Username">
+                        </div>
+                        <div class="form-group">
+                            <input name="password" type="password" class="form-control" placeholder="password" id="inputPassword1">
+                        </div>
+
+                        <div class="d-flex justify-content-end">
+
+                            <div class="form-group">
+                                <!-- <label for="inputDate">Birth Date</label> -->
+                                <input type="checkbox" class="form-check-input" id="checkBox">
+                                <label class="form-check-label" for="checkBox">Remeber me</label>
+
+                            </div>
+                        </div>
+
+                        <div class="d-flex justify-content-end">
+                            <button type="submit" value="submit" id="btn-login" class="btn btn-danger w-50">Login in</button>
+                        </div>
+                        <div class="d-flex justify-content-end">
+                            <a href="index.html">Register now</a>
+
+                        </div>
+                    </form>
+
+                </div>
+
+            </div>
+            <!-- </div> -->
+        </div>
+    </div>
+    <!-- Load the CDN first -->
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <!-- If CDN fails to load, serve up the local version -->
+    <script>
+        window.jQuery || document.write('<script src="js/jQuery.js"><\/script>');
+    </script>
+    <script src="js/jquery-ui-1.12.1/jquery-ui.min.js"></script>
+    <script src="js/jquery-validation/dist/jquery.validate.min.js"></script>
+
+    <script src="js/bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+
+    <script>
+    </script>
+
+</body>
+
+</html>

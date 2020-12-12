@@ -1,0 +1,394 @@
+body {
+    background-color: #e9e7e7;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#sidebar div {
+    display: block;
+    color: #fff;
+    text-align: center;
+    height: 150px;
+    width: 180px;
+}
+
+#one {
+    background-color: #1e2f58;
+}
+
+#two {
+    background-color: #44506d;
+}
+
+#three {
+    background-color: #515a6e;
+}
+
+#four {
+    background-color: #4a4e57;
+}
+
+.circle,
+#first-circle {
+    background-color: #d42027;
+    color: #fff;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-top: 100px;
+}
+
+#first-circle {
+    margin-top: 60px;
+}
+
+.smallcircle {
+    background-color: #888888;
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    margin: 10px 0 10px 17px;
+}
+
+
+/* ============================end of styling side bar ================== */
+
+#rate-text {
+    margin-top: 100px;
+    color: #192f63;
+    font-weight: bold;
+    border-bottom: solid #192f63 2px;
+    height: 120px;
+    width: 105px;
+    padding: 0;
+}
+
+#main {
+    border-bottom: solid #192f63 2px;
+}
+
+#step3 {
+    margin-top: 30px;
+    border-bottom: solid #192f63 2px;
+}
+
+#step4 {
+    margin-top: 80px;
+}
+
+.paragraph {
+    border-bottom: solid #192f63 2px;
+}
+
+#input-day {
+    margin-top: 200px;
+    border: none;
+    border-radius: 5px;
+    background-color: #b3b3b3;
+    color: #fff;
+    height: 40px;
+    width: 120px;
+}
+
+#input-day:hover {
+    border: solid #5c5c5c 2px;
+}
+
+::placeholder {
+    color: #fff;
+    padding: 5px;
+}
+
+#btn-continue,
+#btn,
+#btn-save,
+#back {
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 20px;
+    width: 230px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    background-color: #d42027;
+    color: #fff;
+    padding: 8px;
+    margin-right: 20px;
+}
+
+#para {
+    font-weight: bold;
+    color: #d42027;
+    text-align: right;
+}
+
+#div-btn {
+    padding: 30px;
+}
+
+#second-col {
+    float: right;
+}
+
+#first-col {
+    float: left;
+}
+
+
+/* ============================================= scroll div ================================== */
+
+#scroll-div {
+    width: 300px;
+    height: 450px;
+    background-color: #fff;
+    margin-top: 100px;
+    border: solid #888888 1px;
+    padding: 10px;
+}
+
+#green-text,
+#orange-text,
+#red-text {
+    color: #59e055;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 20px;
+    text-transform: uppercase;
+}
+
+#orange-text {
+    color: #ffa30a;
+}
+
+#red-text {
+    color: #d42027;
+}
+
+.text {
+    border-bottom: solid #e9e7e7 2px;
+    border-bottom-style: ridge;
+}
+
+.sub-text,
+.description-text {
+    color: #5c5c5c;
+    padding: 3px;
+    max-width: 150px;
+    font-size: 14px;
+    margin-left: 15px;
+}
+
+.description-text {
+    max-width: none;
+}
+
+.gray-text {
+    color: #5c5c5c;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 20px;
+    text-transform: uppercase;
+}
+
+#decrease {
+    background: none;
+    border: none;
+    padding: 0px;
+    margin: 0px;
+    font-size: 70px;
+    font-weight: bold;
+    color: #59e055;
+    text-align: center;
+}
+
+#increase {
+    background: none;
+    border: none;
+    padding: 0px;
+    margin: 0px;
+    font-size: 70px;
+    color: #d42027;
+    font-weight: bold;
+}
+
+
+/* =================================================================================== */
+
+
+/* ==============================PAIN FREQUENCY section style============================= */
+
+#last-section {
+    margin-top: 70px;
+    padding: 30px;
+}
+
+#text-frequency {
+    color: #192f63;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+#select-box {
+    background-color: #b3b3b3;
+    border: solid #888888 1px;
+    color: #fff;
+    height: 40px;
+    margin-top: 10px;
+}
+
+textarea {
+    resize: none;
+}
+
+
+/* =============================== style of step2.html===================== */
+
+#step2,
+#step3,
+#step4 {
+    margin-top: 50px;
+    font-weight: bold;
+    color: #192f63;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+#radio-container {
+    height: 50px;
+    width: 50p;
+    margin-top: 70px;
+}
+
+
+/* ======================================= animation step4 styling======================= */
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    /* background: #333; */
+}
+
+.chart {
+    width: 600px;
+    height: 300px;
+    display: block;
+    margin: auto;
+}
+
+.numbers {
+    color: #555;
+    margin: 0;
+    padding: 0;
+    width: 50px;
+    height: 100%;
+    display: inline-block;
+    /* float: left; */
+}
+
+.numbers li {
+    list-style: none;
+    height: 45px;
+    position: relative;
+    bottom: 20px;
+}
+
+.numbers span {
+    font-size: 12px;
+    font-weight: 600;
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+}
+
+.bars {
+    color: #555;
+    font-size: 12px;
+    font-weight: 600;
+    /* background: #fff; */
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    width: 500px;
+    height: 300px;
+    /* box-shadow: 0 0 10px 0 #555; */
+    /* border-radius: 5px; */
+    border-bottom: dashed #555 5px;
+    border-left: solid #555 2px;
+}
+
+.bars li {
+    display: table-cell;
+    width: 100px;
+    height: 300px;
+    position: relative;
+}
+
+.bars span {
+    width: 100%;
+    position: absolute;
+    bottom: -30px;
+    text-align: center;
+}
+
+.bars .bar {
+    display: block;
+    /* background: #17C0EB; */
+    background-color: #fff;
+    border: solid #192f63 5px;
+    width: 50px;
+    position: absolute;
+    bottom: 0;
+    margin-left: 25px;
+    text-align: center;
+    box-shadow: 0 0 10px 0 rgba(23, 192, 235, 0.5);
+    transition: 0.5s;
+}
+
+.bars .bar:hover {
+    background: #55EFC4;
+    box-shadow: 0 0 10px 0 rgba(85, 239, 196, 0.5);
+    cursor: pointer;
+}
+
+.bars .bar:before {
+    color: #555;
+    content: attr(data-percentage) '%';
+    position: relative;
+    bottom: 20px;
+}
+
+#text {
+    font-weight: bold;
+    color: #888;
+    background-color: #fff;
+    border: solid #192f63 7px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
+#table {
+    background-color: #fff;
+    border: solid #888888 1px;
+    box-shadow: 0 0 10px 0 #555;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.card-title {
+    color: #192f63;
+    border-bottom: solid #bebdbd 2px;
+    padding: 5px;
+}

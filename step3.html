@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="js/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="js/jquery-ui-1.12.1/jquery-ui.min.css">
+    <link rel="stylesheet" href="css/step3-style.css">
+
+
+
+</head>
+
+<body>
+    <div class="container-fluid ">
+        <div class="row">
+            <div class="" id="describtion">please click on the spot that represents your pain, then check the box describing the type of pain you are having</div>
+        </div>
+        <div class="row" id="main">
+
+            <div class=" d-flex col-xl-4 ">
+                <div class="align-self-center py-2 px-2 mt-5 ml-4" id="circle">right</div>
+                <img src="assets/front.png" class="img-fluid human-img" height="400px" width="300px">
+
+            </div>
+
+
+            <div class="d-flex col-xl-4">
+                <div class="align-self-center  py-2 px-3 mt-5 mr-5" id="circle">left</div>
+                <img src="assets/back.png" class="img-fluid human-img" height="400px" width="300px">
+                <div class="align-self-center py-2 px-2 mt-5" id="circle">right</div>
+
+            </div>
+            <div class="col-xl-3 ml-5 d-flex flex-column justify-content-between">
+                <form action="step4.html" id="form-step3">
+                    <div id="head" hidden>
+                        <h2 class="p-2">HEAD</h2>
+                        <div>
+                            <div class="custom-control custom-radio ml-5 p-2">
+
+                                <input type="radio" id="customRadio1" value="Migraine" name="Radio" class="custom-control-input">
+                                <label class="custom-control-label" for="customRadio1">Migraine</label>
+                            </div>
+
+                            <div class="custom-control custom-radio ml-5 p-2">
+                                <input type="radio" id="customRadio2" name="Radio" value="Headache" class="custom-control-input">
+                                <label class="custom-control-label" for="customRadio2">Headache</label>
+                            </div>
+                            <div class="custom-control custom-radio ml-5 p-2">
+                                <input type="radio" id="customRadio3" name="Radio" value="Dehydration" class="custom-control-input">
+                                <label class="custom-control-label" for="customRadio3">Dehydration</label>
+                            </div>
+
+                            <div class="custom-control custom-radio ml-5 p-2">
+                                <input type="radio" id="customRadio4" name="Radio" value="Hypotenstion" class="custom-control-input">
+                                <label class="custom-control-label" for="customRadio4" id="last-label">Hypotenstion</label>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- -----------------------------------neck------------------------------ -->
+                    <div id="neck" hidden>
+                        <h2 class="p-2">NECK</h2>
+                        <div>
+                            <div class="custom-control custom-radio ml-5 p-2">
+
+                                <input type="radio" id="customRadio5" name="Radio" value="Lorem ipsum" class="custom-control-input">
+                                <label class="custom-control-label" for="customRadio5">Lorem ipsum </label>
+                            </div>
+
+                            <div class="custom-control custom-radio ml-5 p-2">
+                                <input type="radio" id="customRadio6" name="Radio" value="Lorem ipsum 1" class="custom-control-input">
+                                <label class="custom-control-label" for="customRadio6">Lorem ipsum </label>
+                            </div>
+                            <div class="custom-control custom-radio ml-5 p-2">
+                                <input type="radio" id="customRadio7" name="Radio" value="Lorem ipsum 2" class="custom-control-input">
+                                <label class="custom-control-label" for="customRadio7">Lorem ipsum </label>
+                            </div>
+
+                            <div class="custom-control custom-radio ml-5 p-2">
+                                <input type="radio" id="customRadio8" name="Radio" value="Lorem ipsum 3" class="custom-control-input">
+                                <label class="custom-control-label" for="customRadio8" id="last-label">Lorem ipsum </label>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- ---------------------------------------------------shoulder------------------------------------------- -->
+                    <div id="shoulder" hidden>
+                        <h2 class="p-2">shoulder</h2>
+                        <div>
+                            <div class="custom-control custom-radio ml-5 p-2">
+
+                                <input type="radio" id="customRadio9" name="Radio" value="Lorem ipsum 4" class="custom-control-input">
+                                <label class="custom-control-label" for="customRadio9">Lorem ipsum </label>
+                            </div>
+
+                            <div class="custom-control custom-radio ml-5 p-2">
+                                <input type="radio" id="customRadio10" name="Radio" value="Lorem ipsum 5" class="custom-control-input">
+                                <label class="custom-control-label" for="customRadio10">Lorem ipsum </label>
+                            </div>
+                            <div class="custom-control custom-radio ml-5 p-2">
+                                <input type="radio" id="customRadio11" name="Radio" value="Lorem ipsum 6" class="custom-control-input">
+                                <label class="custom-control-label" for="customRadio11">Lorem ipsum </label>
+                            </div>
+
+                            <div class="custom-control custom-radio ml-5 p-2">
+                                <input type="radio" id="customRadio12" name="Radio" value="Lorem ipsum 7" class="custom-control-input">
+                                <label class="custom-control-label" for="customRadio12" id="last-label">Lorem ipsum </label>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                    <div class="m-5 ">
+                        <button type="submit" value="submit" id="btn-confirm" class="btn" disabled>confirm</button>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+
+
+
+
+    </div>
+
+
+    <!-- Load the CDN first -->
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <!-- If CDN fails to load, serve up the local version -->
+    <script>
+        window.jQuery || document.write('<script src="js/jQuery.js"><\/script>');
+    </script>
+    <script src="js/jquery-ui-1.12.1/jquery-ui.min.js"></script>
+    <script src="js/jquery-validation/dist/jquery.validate.min.js"></script>
+
+    <script src="js/bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+
+    <script>
+    </script>
+
+
+</body>
+
+</html>

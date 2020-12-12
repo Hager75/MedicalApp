@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="js/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="js/jquery-ui-1.12.1/jquery-ui.min.css">
+    <link rel="stylesheet" href="css/stepper.css">
+
+
+
+</head>
+
+<body>
+
+
+    <div class="container-fluid">
+
+        <div class="row">
+            <div class="col-xl-3 d-flex" id="mainf">
+                <div class="d-flex flex-column" id="first-col">
+                    <div class="" id="first-circle">01
+                        <div class="smallcircle"></div>
+                        <div class="smallcircle"></div>
+                        <div class="smallcircle"></div>
+                        <div class="smallcircle"></div>
+                        <div class="smallcircle"></div>
+                        <div class="smallcircle"></div>
+
+
+                    </div>
+
+
+                    <div class="circle">02
+                        <div class="smallcircle"></div>
+                        <div class="smallcircle"></div>
+                        <div class="smallcircle"></div>
+                        <div class="smallcircle"></div>
+                        <div class="smallcircle"></div>
+                        <div class="smallcircle"></div>
+                    </div>
+                    <div class="circle">03
+                        <div class="smallcircle"></div>
+                        <div class="smallcircle"></div>
+                        <div class="smallcircle"></div>
+                        <div class="smallcircle"></div>
+                        <div class="smallcircle"></div>
+                        <div class="smallcircle"></div>
+                    </div>
+                    <div class="circle">04
+
+                    </div>
+                </div>
+
+
+                <div id="second-col">
+                    <nav class="nav flex-column m-3" id="sidebar">
+                        <div class="nav-link p-5" id="one">Lorem ipsum dolor</div>
+                        <div class="nav-link p-5" id="two">Lorem ipsum dolor</div>
+                        <div class="nav-link p-5" id="three">Lorem ipsum dolor</div>
+                        <div class="nav-link p-5" id="four">Lorem ipsum dolor</div>
+                    </nav>
+                </div>
+            </div>
+            <!-- --------------------------second column------------------------->
+            <div class="col-xl-3">
+                <form action="step3.html" id="form-step2">
+                    <div class="d-flex" id="main">
+                        <div id="step2"> are you taking any medicien</div>
+                        <div id="radio-container">
+                            <div class="custom-control custom-radio ">
+
+                                <input type="radio" value="yes" id="customRadio1" name="customRadio" class="custom-control-input">
+                                <label class="custom-control-label" for="customRadio1">yes</label>
+                            </div>
+
+                            <div class="custom-control custom-radio">
+                                <input type="radio" id="customRadio2" value="no" name="customRadio" class="custom-control-input">
+                                <label class="custom-control-label" for="customRadio2">no</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="step3"> pain burden
+
+                    </div>
+                    <div>In the past 6 months, how many days of work you missed because your pain?</div>
+
+                    <div id="step4"> pain type</div>
+                    <div class="paragraph">Use the illustration to choose your pain type</div>
+
+            </div>
+
+            <!-- --------------------------fourth column------------------------->
+            <div class="col-xl-3">
+                <input type="number" min="1" placeholder="Days" id="input-day" name="customRadio">
+                <img class="mt-4" src="assets/logo2.png" class="img-responsive" width="250px" height="280px" id="pain-img">
+            </div>
+            <!-- --------------------------fifth column------------------------->
+
+            <div class="col-xl-3" id="div-btn">
+                <button type="submit" value="submit" id="btn" class="btn" disabled>continue</button>
+
+            </div>
+            </form>
+
+        </div>
+        <div id="para">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+
+    </div>
+
+
+    <!-- Load the CDN first -->
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <!-- If CDN fails to load, serve up the local version -->
+    <script>
+        window.jQuery || document.write('<script src="js/jQuery.js"><\/script>');
+    </script>
+    <script src="js/jquery-ui-1.12.1/jquery-ui.min.js"></script>
+    <script src="js/jquery-validation/dist/jquery.validate.min.js"></script>
+
+    <script src="js/bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+
+    <script>
+    </script>
+
+
+</body>
+
+</html>

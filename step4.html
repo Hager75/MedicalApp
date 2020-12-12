@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="js/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="js/jquery-ui-1.12.1/jquery-ui.min.css">
+
+    <link rel="stylesheet" href="css/stepper.css">
+
+
+
+
+
+</head>
+
+<body>
+
+
+    <div class="container-fluid">
+
+        <div class="row">
+            <div class="col-xl-3 d-flex" id="mainf">
+                <div class="d-flex flex-column" id="first-col">
+                    <div class="" id="first-circle">01
+                        <div class="smallcircle"></div>
+                        <div class="smallcircle"></div>
+                        <div class="smallcircle"></div>
+                        <div class="smallcircle"></div>
+                        <div class="smallcircle"></div>
+                        <div class="smallcircle"></div>
+
+
+                    </div>
+
+
+                    <div class="circle">02
+                        <div class="smallcircle"></div>
+                        <div class="smallcircle"></div>
+                        <div class="smallcircle"></div>
+                        <div class="smallcircle"></div>
+                        <div class="smallcircle"></div>
+                        <div class="smallcircle"></div>
+                    </div>
+                    <div class="circle">03
+                        <div class="smallcircle"></div>
+                        <div class="smallcircle"></div>
+                        <div class="smallcircle"></div>
+                        <div class="smallcircle"></div>
+                        <div class="smallcircle"></div>
+                        <div class="smallcircle"></div>
+                    </div>
+                    <div class="circle">04
+
+                    </div>
+                </div>
+
+
+                <div id="second-col">
+                    <nav class="nav flex-column m-3" id="sidebar">
+                        <div class="nav-link p-5" id="one">Lorem ipsum dolor</div>
+                        <div class="nav-link p-5" id="two">Lorem ipsum dolor</div>
+                        <div class="nav-link p-5" id="three">Lorem ipsum dolor</div>
+                        <div class="nav-link p-5" id="four">Lorem ipsum dolor</div>
+                    </nav>
+                </div>
+            </div>
+            <!-- --------------------------second column------------------------ -> -->
+
+
+            <div class="col-sm-8 ml-3 mt-5">
+                <div id="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam semper, ex eu pharetra elementum,</div>
+                <div class="chart">
+                    <ul class="numbers">
+                        <li><span>12</span></li>
+                        <li><span>10</span></li>
+                        <li><span>8</span></li>
+                        <li><span>6</span></li>
+                        <li><span>4</span></li>
+                        <li><span>2</span></li>
+                        <li><span>0</span></li>
+                    </ul>
+                    <ul class="bars">
+                        <li>
+                            <div class="bar" data-percentage="50"></div><span> 2 weeks</span></li>
+                        <li>
+                            <div class="bar" data-percentage="30"></div><span>2–4 weeks</span></li>
+                        <li>
+                            <div class="bar" data-percentage="60"></div><span>5–8 weeks</span></li>
+                        <li>
+                            <div class="bar" data-percentage="100"></div><span>9–12 weeks</span></li>
+                        <li>
+                            <div class="bar" data-percentage="80"></div><span>12 weeks</span></li>
+                    </ul>
+                </div>
+                <form action="final-step.html">
+                    <div class="m-5">
+                        <button type="button" class="btn" id="btn-save" data-toggle="modal" data-target="#exampleModal">
+                            Save
+                        </button>
+                    </div>
+                </form>
+
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">confirming message</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+                            </div>
+                            <div class="modal-body">
+                                Every thing stored successfully
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">close</button>
+                                <button type="button" class="btn btn-primary" id="ok">ok</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+    </div>
+
+    <!-- <script src="http://cdn.jsdelivr.net/chartist.js/latest/chartist.min.js"></script> -->
+
+    <!-- Load the CDN first -->
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <!-- If CDN fails to load, serve up the local version -->
+    <script>
+        window.jQuery || document.write('<script src="js/jQuery.js"><\/script>');
+    </script>
+    <script src="js/jquery-ui-1.12.1/jquery-ui.min.js"></script>
+    <script src="js/jquery-validation/dist/jquery.validate.min.js"></script>
+
+    <script src="js/bootstrap/js/bootstrap.min.js"></script>
+
+    <script src="js/script.js"></script>
+
+    <script>
+    </script>
+</body>
+
+</html>

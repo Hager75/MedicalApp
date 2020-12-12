@@ -1,0 +1,107 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background: url(../assets/background.png) center center no-repeat fixed;
+    background-size: cover;
+}
+
+#btn-register,
+#btn-login {
+    border-radius: 20px;
+}
+
+#userName,
+#inputPassword1,
+#inputPassword2 {
+    background-color: #b3b3b3;
+    border-radius: 30px;
+    color: #fff;
+    height: 50px;
+}
+
+#inputDate {
+    background-color: #b3b3b3;
+    color: #fff;
+}
+
+
+/* ------------------------------- datepicker style--------------------------- */
+
+.ui-datepicker-header {
+    background-color: #1e2f58;
+    color: #fff;
+    /* color: red; */
+}
+
+.ui-datepicker-prev,
+.ui-datepicker-next {
+    /* color: #fff; */
+    background-color: #fff;
+}
+
+.ui-datepicker-calendar .ui-state-default {
+    border: none;
+    background: none;
+    text-align: center;
+}
+
+.ui-datepicker-calendar .ui-state-hover {
+    background: #e24a4f;
+    border-radius: 100%;
+    color: #fff;
+}
+
+.ui-datepicker-calendar .ui-state-active {
+    background-color: #d42027;
+    border-radius: 100%;
+    color: #fff;
+}
+
+
+/* ------------------------------- datepicker style--------------------------- */
+
+::placeholder {
+    color: #fff;
+}
+
+::-webkit-input-placeholder {
+    /* Edge */
+    color: #fff;
+}
+
+ :-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #fff;
+}
+
+a {
+    color: #6e6e6e;
+    margin-right: 10px;
+}
+
+#section {
+    margin-top: 100px;
+}
+
+#back-ground-img {
+    margin: 160px 50px 0 0;
+    padding: 0 50px;
+}
+
+#form-div {
+    margin-top: 200px;
+    padding: 0 0 0 50px;
+}
+
+#logo {
+    margin: 50px 50px 0 0;
+}
+
+#basic-addon1 {
+    color: #6e6e6e;
+    background: #ebeaea;
+}

@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <link rel="stylesheet" href="js/font/css/all.min.css">
+    <link href="css/fontawesome/css/all.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="js/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="js/jquery-ui-1.12.1/jquery-ui.min.css">
+    <link rel="stylesheet" href="css/stepper.css">
+
+
+
+</head>
+
+<body>
+
+
+    <div class="container-fluid">
+
+        <div class="row ">
+            <div class="col-xl-3 d-flex" id="mainf">
+                <div class="d-flex flex-column" id="first-col">
+                    <div class="" id="first-circle">01
+                        <div class="smallcircle"></div>
+                        <div class="smallcircle"></div>
+                        <div class="smallcircle"></div>
+                        <div class="smallcircle"></div>
+                        <div class="smallcircle"></div>
+                        <div class="smallcircle"></div>
+
+
+                    </div>
+
+
+                    <div class="circle">02
+                        <div class="smallcircle"></div>
+                        <div class="smallcircle"></div>
+                        <div class="smallcircle"></div>
+                        <div class="smallcircle"></div>
+                        <div class="smallcircle"></div>
+                        <div class="smallcircle"></div>
+                    </div>
+                    <div class="circle">03
+                        <div class="smallcircle"></div>
+                        <div class="smallcircle"></div>
+                        <div class="smallcircle"></div>
+                        <div class="smallcircle"></div>
+                        <div class="smallcircle"></div>
+                        <div class="smallcircle"></div>
+                    </div>
+                    <div class="circle">04
+
+                    </div>
+                </div>
+
+
+                <div id="second-col">
+                    <nav class="nav flex-column m-3" id="sidebar">
+                        <div class="nav-link p-5" id="one">Lorem ipsum dolor
+                        </div>
+                        <div class="nav-link p-5" id="two">Lorem ipsum dolor</div>
+                        <div class="nav-link p-5" id="three">Lorem ipsum dolor</div>
+                        <div class="nav-link p-5" id="four">Lorem ipsum dolor</div>
+                    </nav>
+                </div>
+            </div>
+            <!-- </div> -->
+            <!-- --------------------------second column------------------------ -> -->
+
+            <div class="col-xl-3 d-flex">
+                <div class="align-self-center mb-5" id="first-col ">
+
+                    <p id="rate-text">
+                        Rate your pain intensity on the scale from 0 to 10 ?
+                    </p>
+                </div>
+                <div class="d-flex">
+                    <div class="align-self-center m-5" id="second-col">
+                        <form action="step2.html" id="pain-form">
+                            <div class="custom-control custom-radio ">
+
+                                <input type="radio" id="customRadio1" name="customRadio" value="0" class="custom-control-input">
+                                <label class="custom-control-label" for="customRadio1">00</label>
+                            </div>
+
+                            <div class="custom-control custom-radio">
+                                <input type="radio" id="customRadio2" name="customRadio" value="1" class="custom-control-input">
+                                <label class="custom-control-label" for="customRadio2">01</label>
+                            </div>
+                            <div class="custom-control custom-radio ">
+
+                                <input type="radio" id="customRadio3" name="customRadio" value="2" class="custom-control-input">
+                                <label class="custom-control-label" for="customRadio3">02</label>
+                            </div>
+
+                            <div class="custom-control custom-radio">
+                                <input type="radio" id="customRadio4" name="customRadio" value="3" class="custom-control-input">
+                                <label class="custom-control-label" for="customRadio4">03</label>
+                            </div>
+                            <div class="custom-control custom-radio ">
+
+                                <input type="radio" id="customRadio5" name="customRadio" value="4" class="custom-control-input">
+                                <label class="custom-control-label" for="customRadio5">04</label>
+                            </div>
+
+                            <div class="custom-control custom-radio">
+                                <input type="radio" id="customRadio6" name="customRadio" value="5" class="custom-control-input">
+                                <label class="custom-control-label" for="customRadio6">05</label>
+                            </div>
+                            <div class="custom-control custom-radio ">
+
+                                <input type="radio" id="customRadio7" name="customRadio" value="6" class="custom-control-input">
+                                <label class="custom-control-label" for="customRadio7">06</label>
+                            </div>
+
+                            <div class="custom-control custom-radio">
+                                <input type="radio" id="customRadio8" name="customRadio" value="7" class="custom-control-input">
+                                <label class="custom-control-label" for="customRadio8">07</label>
+                            </div>
+                            <div class="custom-control custom-radio ">
+
+                                <input type="radio" id="customRadio9" name="customRadio" value="8" class="custom-control-input">
+                                <label class="custom-control-label" for="customRadio9">08</label>
+                            </div>
+
+                            <div class="custom-control custom-radio">
+                                <input type="radio" id="customRadio10" name="customRadio" value="9" class="custom-control-input">
+                                <label class="custom-control-label" for="customRadio10">09</label>
+                            </div>
+                            <div class="custom-control custom-radio ">
+
+                                <input type="radio" id="customRadio11" name="customRadio" value="10" class="custom-control-input">
+                                <label class="custom-control-label" for="customRadio11">10</label>
+                            </div>
+
+
+
+                    </div>
+                    <div class="d-flex flex-column align-self-center">
+                        <button type="button" id="decrease" class=" btn ">-</button>
+                        <img src="assets/color.png" class="img-responsive ml-3" height="330px" width="15px">
+                        <button type="button" id="increase" class="btn ">+</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3">
+                <div class="overflow-auto" id="scroll-div">
+                    <div class="text">
+                        <span id="green-text">  
+                            MILD PAIN 
+                    </span>
+                        <div class="sub-text">
+                            could be classified into 3 sub-types
+                        </div>
+                    </div>
+                    <div class="text">
+                        <span class="gray-text"> very mild level 1 
+                    </span>
+                        <div class="description-text">
+                            Is like a mosquito bite. It is described as very light or barely noticeable pain
+                        </div>
+                    </div>
+                    <div class="text">
+                        <span class="gray-text"> tolerable level 2 
+                    </span>
+                        <div class="description-text">
+                            Is closely similar to pinching the fold of skin between the thumb and the first finger.
+                        </div>
+                    </div>
+
+                    <div class="text">
+                        <span class="gray-text"> discomforting level 3
+                    </span>
+                        <div class="description-text">
+                            Is very noticeable like an injection pain. It is not strong but you cannot get used to it
+                        </div>
+                    </div>
+
+                    <!-- ----------------------------------------section two -------------------------- -->
+                    <div class="text">
+                        <span id="orange-text">  
+                            MODERATE PAIN
+                    </span>
+                        <div class="description-text">
+                            It interferes with many activities and require lifestyle changes but the patient remains independent; however, unable to adapt to pain
+                        </div>
+                    </div>
+                    <div class="text">
+                        <span class="gray-text"> very mild level 1 
+                    </span>
+                        <div class="description-text">
+                            Is like a mosquito bite. It is described as very light or barely noticeable pain
+                        </div>
+                    </div>
+                    <div class="text">
+                        <span class="gray-text"> tolerable level 2 
+                    </span>
+                        <div class="description-text">
+                            Is closely similar to pinching the fold of skin between the thumb and the first finger.
+                        </div>
+                    </div>
+
+
+                    <!-- ----------------------------------------section three -------------------------- -->
+                    <div class="text">
+                        <span id="red-text">  
+                        Danger PAIN
+                    </span>
+                        <div class="description-text">
+                            It interferes with many activities and require lifestyle changes but the patient remains independent; however, unable to adapt to pain
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!-- ------------------------------------------end of column------------------------ -->
+            <div class="col-xl-3" id="last-section">
+                <div class="mt-5"> <span id="text-frequency">
+                    PAIN FREQUENCY
+                </span>
+                    <div>
+                        In the past 6 months, What was the frequency of your pain?
+                    </div>
+                </div>
+                <div class="form-group">
+                    <select class="form-control" id="select-box">
+                        <option>once every other months</option>
+                        <option>twice every other months</option>
+                        <option>once every month</option>
+                        <option>once every other weeks</option>
+                        <option>once every week</option>
+                      </select>
+                </div>
+
+                <div class="form-group">
+
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="10" placeholder="if youwere not able to capture the pan throught the diagram, please specify here.."></textarea>
+                </div>
+                <button type="submit" value="submit" id="btn-continue" class="btn" disabled>continue</button>
+                </form>
+            </div>
+
+        </div>
+        <div id="para">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+
+    </div>
+
+
+
+    <!-- Load the CDN first -->
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <!-- If CDN fails to load, serve up the local version -->
+    <script>
+        window.jQuery || document.write('<script src="js/jQuery.js"><\/script>');
+    </script>
+    <script src="js/jquery-ui-1.12.1/jquery-ui.min.js"></script>
+    <script src="js/jquery-validation/dist/jquery.validate.min.js"></script>
+
+    <script src="js/bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+
+    <script>
+    </script>
+
+
+</body>
+
+</html>
